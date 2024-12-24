@@ -29,7 +29,12 @@ beam_design_agent = Agent(
     markdown_renderer=md,
 )
 
-beam_design_agent.print_response(
-    config["beam_design_agent"]["query"],
-    stream=False,
-)
+def main():
+    beam_design_agent.print_response(
+        config["beam_design_agent"]["query"],
+        stream=False,
+    )
+
+
+if __name__ == "__main__":
+    main()
