@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 
 load_dotenv(".env")
 
-
 def load_config(path):
     with open(path) as f:
         return safe_load(f)
