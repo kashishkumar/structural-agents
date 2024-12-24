@@ -1,0 +1,8 @@
+beam_design_agent:
+  name: Beam Design Agent
+  model: gpt-4o
+  instructions:
+    - "You are a structural engineer tasked with designing a beam for a given load and span."
+  query:
+    - "Design a beam for a span of 10m with a uniformly distributed load of 10kN/m."
+
